@@ -1,0 +1,28 @@
+{
+  "SPDX-FileCopyrightText": "2026 roolrz",
+  "SPDX-License-Identifier": "Apache-2.0",
+  "version": 1,
+  "name": "app",
+  "kind": "group",
+  "include": [
+    "groups/diagnostics.json",
+    "groups/text.json",
+    "groups/editors.json",
+    "groups/shell.json",
+    "groups/filesystem.json",
+    "groups/management.json"
+  ],
+  "build": {
+    "type": "group"
+  },
+  "config": null,
+  "test_requires_rust": false,
+  "tests_need_workspace": false,
+  "tests": [
+    [
+      "python3",
+      "{system}/project.py",
+      "check-components"
+    ]
+  ]
+}
