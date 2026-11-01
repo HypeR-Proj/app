@@ -1,0 +1,31 @@
+{
+  "SPDX-FileCopyrightText": "2026 roolrz",
+  "SPDX-License-Identifier": "Apache-2.0",
+  "version": 1,
+  "include": [
+    {
+      "project": "free"
+    },
+    {
+      "project": "handle"
+    },
+    {
+      "project": "journalctl"
+    },
+    {
+      "project": "ldd"
+    },
+    {
+      "project": "memstat"
+    },
+    {
+      "project": "perf"
+    },
+    {
+      "project": "ps"
+    },
+    {
+      "project": "top"
+    }
+  ]
+}
